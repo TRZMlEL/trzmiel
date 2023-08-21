@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-background text-text">
       <header>
-      <h3 class="text-background">TRZMIEL</h3>
+      <h3 className="">TRZMIEL</h3>
       <p>About me</p>
       <p>Skills</p>
       <p>Projects</p>
