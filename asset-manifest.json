@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/trzmiel/static/css/main.6578b630.css",
+    "main.js": "/trzmiel/static/js/main.c9c2a8ba.js",
+    "static/js/787.99147d09.chunk.js": "/trzmiel/static/js/787.99147d09.chunk.js",
+    "static/media/logo.svg": "/trzmiel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/trzmiel/index.html",
+    "main.6578b630.css.map": "/trzmiel/static/css/main.6578b630.css.map",
+    "main.c9c2a8ba.js.map": "/trzmiel/static/js/main.c9c2a8ba.js.map",
+    "787.99147d09.chunk.js.map": "/trzmiel/static/js/787.99147d09.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6578b630.css",
+    "static/js/main.c9c2a8ba.js"
+  ]
+}
