@@ -11,6 +11,13 @@ module.exports = {
       'secondary': '#101910',
       'accent': '#5D986B',
     },
+    fontSize: {
+      '1xl': '16px',
+      '2xl': '32px',
+      '3xl': '48px',
+      '4xl': '96px',
+      '5xl': '115px',
+    }
   },
   plugins: [],
 }
