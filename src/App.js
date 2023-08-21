@@ -4,8 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App bg-background text-text">
-      <header>
-      <h3 className="">TRZMIEL</h3>
+      <header className="flex justify-between">
+      <h3>TRZMIEL</h3>
       <p>About me</p>
       <p>Skills</p>
       <p>Projects</p>
