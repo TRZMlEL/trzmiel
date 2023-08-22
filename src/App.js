@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import mateuszTrzmiel from './img/MateuszTrzmiel.png';
 import separator from './img/Separator.png';
