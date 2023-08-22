@@ -17,6 +17,15 @@ module.exports = {
       '3xl': '48px',
       '4xl': '96px',
       '5xl': '115px',
+    },
+    padding: {
+      'webborder': '3vmin',
+    },
+    margin: {
+      'webborder': '3vmin',
+    },
+    width: {
+      'mojezdjecie': '60vmin',
     }
   },
   plugins: [],
