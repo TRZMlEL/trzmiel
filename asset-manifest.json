@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/trzmiel/static/css/main.30c6c74f.css",
-    "main.js": "/trzmiel/static/js/main.68c170e3.js",
+    "main.css": "/trzmiel/static/css/main.f47dd75f.css",
+    "main.js": "/trzmiel/static/js/main.163b8343.js",
     "static/js/787.99147d09.chunk.js": "/trzmiel/static/js/787.99147d09.chunk.js",
     "static/media/MateuszTrzmiel.png": "/trzmiel/static/media/MateuszTrzmiel.832e7292aa77ac6a69ba.png",
     "static/media/Separator.png": "/trzmiel/static/media/Separator.cf9bb6e4058f0e8d258c.png",
-    "static/media/logo.svg": "/trzmiel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/trzmiel/index.html",
-    "main.30c6c74f.css.map": "/trzmiel/static/css/main.30c6c74f.css.map",
-    "main.68c170e3.js.map": "/trzmiel/static/js/main.68c170e3.js.map",
+    "main.f47dd75f.css.map": "/trzmiel/static/css/main.f47dd75f.css.map",
+    "main.163b8343.js.map": "/trzmiel/static/js/main.163b8343.js.map",
     "787.99147d09.chunk.js.map": "/trzmiel/static/js/787.99147d09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30c6c74f.css",
-    "static/js/main.68c170e3.js"
+    "static/css/main.f47dd75f.css",
+    "static/js/main.163b8343.js"
   ]
 }
