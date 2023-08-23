@@ -112,7 +112,7 @@ function App() {
         </section>
         <section className='h-80vmin flex justify-center items-center flex-col mb-webborder'>
           <h2 className='text-3xl font-semibold'>CONTACT:</h2>
-          <div className='h-70vmin w-120vmin bg-primary'>
+          <div className='h-70vmin w-120vmin bg-primary rounded-3xl flex items-stretch justify-around'>
             <input type="email" value="email" />
             <input value="topic" />
             <input value="message" />
