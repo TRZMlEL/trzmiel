@@ -14,22 +14,30 @@ module.exports = {
     },
     fontSize: {
       '1xl': '2vmin',
+      '1.5xl': '3vmin',
       '2xl': '4vmin',
       '3xl': '6vmin',
-      '4xl': '96px',
+      '4xl': '10vmin',
       '5xl': '15vmin',
     },
     padding: {
+      '3vmin': '3vmin',
       'webborder': '6vmin',
     },
     margin: {
+      '3vmin': '3vmin',
       'webborder': '6vmin',
     },
     width: {
+      'fit': 'fit-content',
       'screen': '100vw',
       'mojezdjecie': '60vmin',
       '1/2': '50%',
-      '1/3': '33%',
+      '1/3': '31.333333%',
+      '2/3': '64.666666%',
+      '5/6': '83.333333%',
+      '4/5': '78%',
+      '1/5': '18%',
       'full': '100%',
       '1vmin': '1vmin',
       '2vmin': '2vmin',
@@ -390,6 +398,9 @@ module.exports = {
       '148vmin': '148vmin',
       '149vmin': '149vmin',
       '150vmin': '150vmin',
+    },
+    gap: {
+      '6vmin': '6vmin',
     }
   },
   plugins: [],
