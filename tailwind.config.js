@@ -8,15 +8,16 @@ module.exports = {
       'text': '#EBF1E9',
       'background': '#121910',
       'primary': '#B9D4BA',
+      'halfprimary': '#B9D4BA50',
       'secondary': '#101910',
       'accent': '#5D986B',
     },
     fontSize: {
-      '1xl': '16px',
-      '2xl': '32px',
-      '3xl': '48px',
+      '1xl': '2vmin',
+      '2xl': '4vmin',
+      '3xl': '6vmin',
       '4xl': '96px',
-      '5xl': '115px',
+      '5xl': '15vmin',
     },
     padding: {
       'webborder': '3vmin',
@@ -26,6 +27,8 @@ module.exports = {
     },
     width: {
       'mojezdjecie': '60vmin',
+      '1/2': '50%',
+      'full': '100%',
     }
   },
   plugins: [],

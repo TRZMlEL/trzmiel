@@ -3,12 +3,42 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mansalva&display=swap');
 
+:root{
+  --text: #EBF1E9;
+  --background: #121910;
+  --primary: #B9D4BA;
+  --halfprimary: #B9D4BA50;
+  --secondary: #101910;
+  --accent: #5D986B;
+};
 
 body{
   font-family: 'Lato', sans-serif;
-  background: #121910;
+  background: var(-background);
 }
 
 h1{
   font-family: 'Mansalva', cursive;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1.5vmin;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--text);
+  border-radius: 10vmin;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+  border-radius: 10vmin;
 }
