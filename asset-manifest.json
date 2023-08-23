@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/trzmiel/static/css/main.dc548cdd.css",
-    "main.js": "/trzmiel/static/js/main.aa3f8518.js",
+    "main.css": "/trzmiel/static/css/main.126ab518.css",
+    "main.js": "/trzmiel/static/js/main.9fc7f344.js",
     "static/js/787.99147d09.chunk.js": "/trzmiel/static/js/787.99147d09.chunk.js",
     "static/media/MateuszTrzmiel.png": "/trzmiel/static/media/MateuszTrzmiel.832e7292aa77ac6a69ba.png",
+    "static/media/code.png": "/trzmiel/static/media/code.ca9067c6ef3a9ee5bc2e.png",
     "static/media/Separator.png": "/trzmiel/static/media/Separator.cf9bb6e4058f0e8d258c.png",
     "index.html": "/trzmiel/index.html",
-    "main.dc548cdd.css.map": "/trzmiel/static/css/main.dc548cdd.css.map",
-    "main.aa3f8518.js.map": "/trzmiel/static/js/main.aa3f8518.js.map",
+    "main.126ab518.css.map": "/trzmiel/static/css/main.126ab518.css.map",
+    "main.9fc7f344.js.map": "/trzmiel/static/js/main.9fc7f344.js.map",
     "787.99147d09.chunk.js.map": "/trzmiel/static/js/787.99147d09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc548cdd.css",
-    "static/js/main.aa3f8518.js"
+    "static/css/main.126ab518.css",
+    "static/js/main.9fc7f344.js"
   ]
 }
