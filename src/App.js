@@ -1,127 +1,47 @@
-import './App.css';
-import mateuszTrzmiel from './img/MateuszTrzmiel.png';
-import separator from './img/Separator.png';
-import code from './img/code.png';
-
-// pamiętaj robić npm run deploy
+import React from 'react';
+import facebook from './img/facebook.png';
+import linkedIn from './img/linkedIn.png';
+import instagram from './img/instagram.png';
 
 function App() {
   return (
-    <div className="w-vw bg-background text-text">
-      <header className="flex justify-between align-end pl-webborder pr-webborder pt-webborder">
-        <h3 className='text-3xl'>TRZMIEL</h3>
-        <p className='text-2xl' >About me</p>
-        <p className='text-2xl' >Skills</p>
-        <p className='text-2xl' >Projects</p>
-        <p className='text-2xl' >Contact me</p>
+    <div className='bg-dark w-screen text-light'>
+      <header className='ml-8rem mr-8rem h-4rem flex justify-end flex-col'>
+        <nav className='flex w-full items-end justify-between'>
+          <h2 className='text-4xl tracking-tight font-semibold leading-none hover:text-color'>TRZMIEL</h2>
+          <div className='text-2xl flex h-full gap-1rem font-semibold leading-none items-end'>
+            <p className='hover:underline underline-offset-1'>About me</p>
+            <p className='hover:underline underline-offset-1'>Skills</p>
+            <p className='hover:underline underline-offset-1'>Projects</p>
+            <p className='hover:underline underline-offset-1'>Contact</p>
+          </div>
+          <div className='flex h-full gap-1rem'>
+            <a href='https://www.facebook.com/TRZMlEL/' target='_blank' rel='noopener noreferrer'>
+              <svg className='h-3rem w-3rem fill-light hover:fill-color' alt='Facebook' xmlns="http://www.w3.org/2000/svg">
+              <path d="M48 34.4865C48 43.2225 42.792 48.4305 34.056 48.4305H31.2C29.88 48.4305 28.8 47.3505 28.8 46.0305V32.1825C28.8 31.5345 29.328 30.9825 29.976 30.9825L34.2 30.9105C34.536 30.8865 34.824 30.6465 34.896 30.3105L35.736 25.7265C35.808 25.2945 35.472 24.8865 35.016 24.8865L29.904 24.9585C29.232 24.9585 28.704 24.4305 28.68 23.7825L28.584 17.9025C28.584 17.5185 28.896 17.1825 29.304 17.1825L35.064 17.0865C35.472 17.0865 35.784 16.7745 35.784 16.3665L35.688 10.6065C35.688 10.1985 35.376 9.88648 34.968 9.88648L28.488 9.98251C24.504 10.0545 21.336 13.3185 21.408 17.3025L21.528 23.9025C21.552 24.5745 21.024 25.1025 20.352 25.1265L17.472 25.1745C17.064 25.1745 16.752 25.4865 16.752 25.8945L16.824 30.4545C16.824 30.8625 17.136 31.1745 17.544 31.1745L20.424 31.1265C21.096 31.1265 21.624 31.6545 21.648 32.3025L21.864 45.9825C21.888 47.3265 20.808 48.4305 19.464 48.4305H13.944C5.208 48.4305 0 43.2225 0 34.4625V14.3745C0 5.63848 5.208 0.430481 13.944 0.430481H34.056C42.792 0.430481 48 5.63848 48 14.3745V34.4865Z"/>
+              </svg></a>
+
+            <a href='https://www.linkedin.com/in/mateusztrzmiel/' target='_blank' rel='noopener noreferrer'>
+              <svg className='h-3rem w-3rem fill-light hover:fill-color' alt='LinkedIN' xmlns="http://www.w3.org/2000/svg">
+              <path d="M32.4004 14.8307C30.3565 14.8237 28.3313 15.2198 26.4407 15.9963C24.55 16.7728 22.8311 17.9144 21.3821 19.3559C19.9331 20.7974 18.7827 22.5105 17.9965 24.3971C17.2103 26.2837 16.8038 28.3068 16.8003 30.3507V46.0306C16.8003 46.6671 17.0532 47.2776 17.5032 47.7276C17.9533 48.1777 18.5638 48.4306 19.2003 48.4306H24.8003C25.4368 48.4306 26.0473 48.1777 26.4974 47.7276C26.9475 47.2776 27.2003 46.6671 27.2003 46.0306V30.3507C27.1998 29.6237 27.3525 28.9049 27.6484 28.2409C27.9444 27.5769 28.3769 26.9828 28.9178 26.4972C29.4588 26.0116 30.096 25.6455 30.788 25.4227C31.4799 25.1998 32.211 25.1253 32.9337 25.204C34.2297 25.3673 35.4208 26.0005 36.2809 26.9835C37.1411 27.9666 37.6106 29.2311 37.6004 30.5373V46.0306C37.6004 46.6671 37.8532 47.2776 38.3033 47.7276C38.7534 48.1777 39.3639 48.4306 40.0004 48.4306H45.6004C46.2369 48.4306 46.8474 48.1777 47.2975 47.7276C47.7476 47.2776 48.0004 46.6671 48.0004 46.0306V30.3507C47.9969 28.3068 47.5905 26.2837 46.8043 24.3971C46.0181 22.5105 44.8676 20.7974 43.4186 19.3559C41.9697 17.9144 40.2507 16.7728 38.3601 15.9963C36.4694 15.2198 34.4442 14.8237 32.4004 14.8307Z"/>
+              <path d="M9.60004 17.2303H2.40001C1.07452 17.2303 0 18.3048 0 19.6303V46.0301C0 47.3556 1.07452 48.4301 2.40001 48.4301H9.60004C10.9255 48.4301 12 47.3556 12 46.0301V19.6303C12 18.3048 10.9255 17.2303 9.60004 17.2303Z"/>
+              <path d="M6.00002 12.4304C9.31375 12.4304 12 9.74414 12 6.43045C12 3.11676 9.31375 0.430481 6.00002 0.430481C2.6863 0.430481 0 3.11676 0 6.43045C0 9.74414 2.6863 12.4304 6.00002 12.4304Z"/>
+              </svg></a>
+            <a href='https://www.instagram.com/TRZMlEL/' target='_blank' rel='noopener noreferrer'>
+            <svg className='h-3rem w-3rem fill-light hover:fill-color' alt='Instagram' xmlns="http://www.w3.org/2000/svg">
+            <path d="M34.073 0.430481H13.951C5.2106 0.430481 0 5.63848 0 14.3745V34.4625C0 43.2225 5.2106 48.4305 13.951 48.4305H34.049C42.7893 48.4305 47.9999 43.2225 47.9999 34.4865V14.3745C48.0239 5.63848 42.8133 0.430481 34.073 0.430481ZM24.012 33.7425C18.8734 33.7425 14.6953 29.5665 14.6953 24.4305C14.6953 19.2945 18.8734 15.1185 24.012 15.1185C29.1505 15.1185 33.3286 19.2945 33.3286 24.4305C33.3286 29.5665 29.1505 33.7425 24.012 33.7425ZM38.227 12.1425C38.107 12.4305 37.9389 12.6945 37.7228 12.9345C37.4827 13.1505 37.2185 13.3185 36.9304 13.4385C36.6423 13.5585 36.3301 13.6305 36.0179 13.6305C35.3696 13.6305 34.7693 13.3905 34.3131 12.9345C34.097 12.6945 33.9289 12.4305 33.8088 12.1425C33.6888 11.8545 33.6168 11.5425 33.6168 11.2305C33.6168 10.9185 33.6888 10.6065 33.8088 10.3185C33.9289 10.0065 34.097 9.76648 34.3131 9.52648C34.8654 8.97448 35.7058 8.71048 36.4742 8.87848C36.6423 8.90248 36.7863 8.95048 36.9304 9.02248C37.0745 9.07048 37.2185 9.14248 37.3626 9.23848C37.4827 9.31048 37.6027 9.43048 37.7228 9.52648C37.9389 9.76648 38.107 10.0065 38.227 10.3185C38.3471 10.6065 38.4191 10.9185 38.4191 11.2305C38.4191 11.5425 38.3471 11.8545 38.227 12.1425Z"/>
+            </svg></a>
+          </div>
+        </nav>
+        <div className='w-full h-0.25rem bg-light mt-0.5rem'></div>
       </header>
-        <div className='h-0.5vmin bg-text ml-webborder mr-webborder'></div>
-      <main className='w-vw h-auto flex flex-col'>
-        <section className='w-vw h-90vmin flex flex-wrap'>
-          <div className='w-1/2 h-5/6  flex items-center justify-center flex-col -translate-y-20'>
-            <h1 className='text-5xl z-10'>
-              MATEUSZ<br />
-              TRZMIEL
-            </h1>
-            <div className='text-2xl bg-halfprimary rounded-2xl w-fit flex items-center justify-center'>
-              <h2>Frontend Developer and Photographer</h2>
-            </div>
-          </div>
-          <div className='w-1/2 h-5/6  flex items-center justify-center'>
-            <img alt="Matuesz Trzmiel Photo" src={mateuszTrzmiel} className='w-mojezdjecie -translate-y-16'/>
-          </div>
-          <img alt="" src={separator} className='w-full absolute -bottom-12'/>
-        </section>
-        <section className='w-vw h-80vmin bg-primary flex flex-wrap p-webborder' >
-          <img alt="Code" src={code} className='w-1/2 h-65vmin mb-webborder rounded-3xl object-cover pr-webborder'/>
-          <p className='text-3xl text-secondary w-1/2 pl-webborder'>
-          Hi, 👋I've been learning programming for half a year to become
-            a frontend developer, in the meantime, since programming, I also deal with photography.<br />
-          <a href="https://github.com/TRZMlEL">See my work --&gt;</a>
-          </p>
-        </section>
-        <section className='bg-background w-vw h-80vmin p-webborder flex flex-wrap items-stretch justify-around gap-6vmin'>
-          <div className='w-4/5 bg-accent text-3xl rounded-3xl flex items-center justify-end '>
-            <div className='flex justify-center flex-col items-center mr-webborder'>
-              <h2>My GitHub profile</h2>
-              <a href='https://github.com/TRZMlEL'>click here</a>
-            </div>
-          </div>
-          <div className='w-1/5 bg-text text-3xl rounded-3xl text-secondary flex flex-col items-center justify-center'>
-            <h2 className='text-4xl'>20</h2>
-            <a>repositories</a>
-          </div>
-          <div className='w-2/3 bg-primary text-3xl rounded-3xl text-secondary flex justify-end items-center'>
-            <div className='flex justify-center flex-col items-center mr-webborder'>
-              <h2>My CV</h2>
-              <a>click here</a>
-            </div>
-          </div>
-          <div className='w-1/3 bg-accent text-3xl rounded-3xl flex justify-start items-center'>
-            <div className='flex justify-center flex-col items-center ml-webborder'>
-              <h2>Contact</h2>
-              <a>click here</a>
-            </div>
-          </div>
-        </section>
-        <section className='bg-primary text-secondary text-2xl p-webborder font-bold'>
-          <h2>Languages and tools:</h2>
-          <div className='flex gap-6vmin mt-webborder'>
-            <img className='w-8vmin' align="left" alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-            <img className='w-8vmin' align="left" alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-            <img className='w-8vmin' align="left" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-            <img className='w-8vmin' align="left" alt="Tailwindcss" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-            <img className='w-8vmin' align="left" alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-            <img className='w-8vmin' align="left" alt="Figma" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-            <img className='w-8vmin' align="left" alt="GitHub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-            <img className='w-8vmin' align="left" alt="VisualStudioCode" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-            <img className='w-8vmin' align="left" alt="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-          </div>
-        </section>
-        <section className='h-85vmin flex items-center justify-center gap-6vmin flex-col p-webborder'>
-          <h2 className='text-3xl font-semibold'>CODING PROJECTS:</h2>
-          <div className='flex gap-6vmin h-75vmin items-stretch text-secondary'>
-            <div className='flex justify-end items-center flex-col w-40vmin bg-primary rounded-3xl p-webborder pt-3vmin pb-3vmin'>
-              <img className='h-full w-full object-cover rounded-3xl mb-3vmin' src='https://source.unsplash.com/random' />
-              <h3 className='text-2xl font-semibold'>Sliding Puzzle</h3>
-              <a className='text-1.5xl' href='https://trzmlel.github.io/SlidingPuzzle/'>Open --&gt;</a>
-              <a className='text-1.5xl' href='https://github.com/TRZMlEL/SlidingPuzzle'>Repository --&gt;</a>
-            </div>
-            <div className='flex justify-end items-center flex-col w-40vmin bg-primary rounded-3xl p-webborder pt-3vmin pb-3vmin'>
-              <img className='h-full w-full object-cover rounded-3xl mb-3vmin' src='https://source.unsplash.com/random' />
-              <h3 className='text-2xl font-semibold'>Sliding Puzzle</h3>
-              <a className='text-1.5xl' href='https://trzmlel.github.io/SlidingPuzzle/'>Open --&gt;</a>
-              <a className='text-1.5xl' href='https://github.com/TRZMlEL/SlidingPuzzle'>Repository --&gt;</a>
-            </div>
-            <div className='flex justify-end items-center flex-col w-40vmin bg-primary rounded-3xl p-webborder pt-3vmin pb-3vmin'>
-              <img className='h-full w-full object-cover rounded-3xl mb-3vmin' src='https://source.unsplash.com/random' />
-              <h3 className='text-2xl font-semibold'>Sliding Puzzle</h3>
-              <a className='text-1.5xl' href='https://trzmlel.github.io/SlidingPuzzle/'>Open --&gt;</a>
-              <a className='text-1.5xl' href='https://github.com/TRZMlEL/SlidingPuzzle'>Repository --&gt;</a>
-            </div>
-          </div>
-        </section>
-        <section className='h-70vmin flex justify-center items-center flex-col'>
-          <h2  className='text-3xl font-semibold'>PHOTOS:</h2>
-          <div className='h-55vmin w-full flex flex-wrap gap-6vmin'>
-          <img className='h-1/3 w-1/3 rounded-es-full object-cover' src='https://source.unsplash.com/random' />
-          <img className='h-1/3 w-2/3 rounded-tl-full object-cover' src='https://source.unsplash.com/random' />
-          <img className='h-1/3 w-1/5 rounded-bl-full object-cover' src='https://source.unsplash.com/random' />
-          <img className='h-1/3 w-4/5 rounded-ee-full object-cover' src='https://source.unsplash.com/random' />
-          </div>
-        </section>
-        <section className='h-80vmin flex justify-center items-center flex-col mb-webborder'>
-          <h2 className='text-3xl font-semibold'>CONTACT:</h2>
-          <div className='h-70vmin w-120vmin bg-primary rounded-3xl flex items-stretch justify-around'>
-            <input type="email" value="email" />
-            <input value="topic" />
-            <input value="message" />
-            <button>SEND</button>
-          </div>
+      <main>
+        <section id='home'>
+          <h1>MATEUSZ<br />TRZMIEL</h1>
         </section>
       </main>
-      <footer className='h-40vmin bg-accent rounded-t-3xl mt-webborder'></footer>
-    </div>
+      <footer></footer>
+    </div>  
   );
 }
 

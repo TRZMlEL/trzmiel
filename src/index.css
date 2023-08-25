@@ -4,17 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mansalva&display=swap');
 
 :root{
-  --text: #EBF1E9;
-  --background: #121910;
-  --primary: #B9D4BA;
-  --halfprimary: #B9D4BA50;
-  --secondary: #101910;
-  --accent: #5D986B;
+  --light: #FFFBF2;
+  --dark: #1A1100;
+  --color: #FFCA68;
+  --gray: #CCC8C2;
 };
 
-body{
+*{
   font-family: 'Lato', sans-serif;
-  background: var(-background);
 }
 
 h1{
@@ -28,17 +25,17 @@ h1{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--background);
+  background: var(--dark);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--text);
+  background: var(--light);
   border-radius: 10vmin;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--accent);
+  background: var(--color);
   border-radius: 10vmin;
 }
