@@ -1,11 +1,10 @@
 import React from 'react';
-import facebook from './img/facebook.png';
-import linkedIn from './img/linkedIn.png';
-import instagram from './img/instagram.png';
+import mateuszTrzmiel from './img/mateuszTrzmiel.png';
+import homeHex from './img/homeHex.png';
 
 function App() {
   return (
-    <div className='bg-dark w-screen text-light'>
+    <div className='bg-dark w-screen text-light font-Lato'>
       <header className='ml-8rem mr-8rem h-4rem flex justify-end flex-col'>
         <nav className='flex w-full items-end justify-between'>
           <h2 className='text-4xl tracking-tight font-semibold leading-none hover:text-color'>TRZMIEL</h2>
@@ -36,8 +35,64 @@ function App() {
         <div className='w-full h-0.25rem bg-light mt-0.5rem'></div>
       </header>
       <main>
-        <section id='home'>
-          <h1>MATEUSZ<br />TRZMIEL</h1>
+        <section className='w-full flex' id='home'>
+          <img className='z-0 absolute h-32rem w-32rem bottom-3rem right-8rem' src={ homeHex } alt=' ' />
+          <div className='w-1/2 flex flex-col items-start justify-center pl-8rem z-10'>
+            <p className='text-3xl font-medium'>Hi, my name is</p>
+            <h1 className='text-8xl font-bold tracking-tight'>MATEUSZ<br />TRZMIEL</h1>
+            <p className='text-3xl font-medium leading-8'> and I am learning to become a Frontend Developer. In the meantime, alongside programming, I also have a passion for photography.</p>
+          </div>
+          <div className='w-1/2 z-10 flex items-end justify-center'>
+            <img className='w-3/5' src={ mateuszTrzmiel } alt='Moje zdjęcie' />
+          </div>
+        </section>
+        <section className='bg-color w-screen pl-16rem pr-16rem pt-4rem pb-4rem z-10' id='aboutMe'>
+          <p className='text-dark text-3xl font-semibold target:bg-color'>Currently, I am attending the Zespół Szkół Technicznych w Ostrowie Wielkopolskim im. Waldemara Gostomczyka, where I am studying Computer Science. It was my passion for video games that initially led me to this field, rather than programming. It was during my time at the school that I first held a camera in my hands, which helped me see the world around me in a different light. For the past six months, I have been focusing on learning frontend development.</p>
+        </section>
+        <section className='pt-4rem pb-4rem pr-16rem pl-16rem flex flex-wrap z-10 text-dark' id='skills1'>
+          <div className='w-2/3 pr-1rem pb-1rem'>
+            <div className='h-16rem bg-color rounded-lg flex p-4rem justify-between items-center'>
+              <svg width="262" height="262" viewBox="0 0 262 262" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M176.618 239.257C173.734 239.257 170.967 238.112 168.928 236.072C166.888 234.032 165.743 231.266 165.743 228.382V200.106C166.08 196.854 165.732 193.566 164.721 190.457C163.709 187.347 162.057 184.484 159.87 182.053C158.516 180.585 157.593 178.772 157.201 176.813C156.809 174.855 156.965 172.826 157.65 170.95C158.335 169.074 159.524 167.423 161.086 166.177C162.648 164.932 164.522 164.141 166.504 163.891C193.04 160.738 217.509 152.255 217.509 106.252C217.517 97.6615 214.982 89.2607 210.223 82.109C205.831 75.5254 204.227 67.4693 205.764 59.7058C206.744 54.6414 206.744 49.436 205.764 44.3716C197.62 47.125 189.953 51.1238 183.034 56.2257C181.726 57.1546 180.229 57.7826 178.649 58.0646C177.07 58.3467 175.448 58.2758 173.899 57.857C154.273 52.3112 133.494 52.3112 113.867 57.857C112.319 58.2758 110.696 58.3467 109.117 58.0646C107.538 57.7826 106.04 57.1546 104.732 56.2257C97.7711 51.0647 90.0224 47.0618 81.7851 44.3716C80.7509 49.4307 80.7509 54.6467 81.7851 59.7058C83.2107 67.5671 81.5345 75.6749 77.1087 82.3265C72.3699 89.5284 69.8374 97.9574 69.8222 106.578C69.8222 148.883 90.2678 160.194 120.936 164.109C122.943 164.358 124.841 165.161 126.416 166.429C127.991 167.697 129.182 169.379 129.854 171.287C130.486 173.137 130.608 175.124 130.206 177.038C129.804 178.952 128.894 180.722 127.57 182.162C125.455 184.423 123.831 187.098 122.802 190.018C121.772 192.938 121.359 196.04 121.589 199.127V228.382C121.589 231.266 120.443 234.032 118.403 236.072C116.364 238.112 113.598 239.257 110.713 239.257C107.829 239.257 105.063 238.112 103.023 236.072C100.984 234.032 99.8381 231.266 99.8381 228.382V222.183C89.1516 223.412 78.3271 221.98 68.3278 218.014C58.3285 214.049 49.4647 207.673 42.5252 199.454C38.9581 195.5 34.6784 192.253 29.9098 189.883C28.5245 189.526 27.2231 188.9 26.0798 188.04C24.9366 187.18 23.9739 186.103 23.2468 184.871C22.5197 183.639 22.0424 182.276 21.8421 180.859C21.6419 179.443 21.7226 178.001 22.0796 176.615C22.4366 175.23 23.063 173.929 23.923 172.785C24.7831 171.642 25.8598 170.68 27.0918 169.952C28.3239 169.225 29.6871 168.748 31.1036 168.548C32.5201 168.348 33.9622 168.428 35.3475 168.785C43.7133 171.833 51.1885 176.916 57.0981 183.576C67.9734 194.451 78.8487 204.021 99.5118 200.106C99.1486 194.267 100 188.416 102.013 182.923C79.61 177.268 47.6366 161.173 47.6366 106.796C47.6079 93.9155 51.3919 81.3148 58.5119 70.5811C59.8344 68.5997 60.3409 66.1842 59.9257 63.8384C57.7281 52.0993 58.9745 39.9751 63.5146 28.9287C64.1314 27.4558 65.0651 26.1368 66.2492 25.0654C67.4334 23.9941 68.8389 23.1966 70.366 22.7297C74.0636 21.6422 87.3315 19.4671 112.453 35.7801C132.79 30.8863 153.997 30.8863 174.334 35.7801C199.456 19.4671 212.724 21.5334 216.313 22.7297C217.84 23.1966 219.245 23.9941 220.43 25.0654C221.614 26.1368 222.547 27.4558 223.164 28.9287C227.713 40.011 228.96 52.1725 226.753 63.9472C226.531 65.0081 226.522 66.1027 226.727 67.1671C226.933 68.2314 227.348 69.2442 227.949 70.1461C235.09 80.9106 238.875 93.5523 238.825 106.47C238.825 161.608 207.069 177.594 184.448 182.597C186.441 188.433 187.254 194.606 186.841 200.759V228.382C186.846 231.157 185.79 233.828 183.889 235.85C181.989 237.872 179.388 239.091 176.618 239.257Z" fill="#1A1100"/>
+              </svg>
+              <div className='w-1/2 h-full flex flex-col items-center justify-center'>
+                <p className='text-3xl font-semibold'>My GitHub profile</p>
+                <p className='text-3xl font-semibold underline underline-offset-2'><a href='https://github.com/TRZMlEL' target='_blank' rel='noopener noreferrer'>Click here</a></p>
+              </div>
+            </div>
+          </div>
+          <div className='w-1/3 pl-1rem pb-1rem'>
+            <div className='h-16rem bg-color rounded-lg flex flex-col items-center justify-center'>
+            <p className='text-6xl'>14</p>
+            <p className='text-3xl font-semibold'>repositories</p>
+            </div>
+          </div>
+          <div className='w-3/5 pr-1rem pt-1rem'>
+            <div className='h-16rem bg-color rounded-lg flex p-4rem justify-between items-center'>
+              <p className='text-9xl font-bold'>CV</p>
+              <div>
+                <p className='text-3xl font-semibold'>My CV</p>
+                <p className='text-3xl font-semibold underline underline-offset-2'><a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiazN_AwfiAAxU9KBAIHRcnBdUQwqsBegQICRAG&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ&usg=AOvVaw0aHtehaphMhOCAkCydRLZU&opi=89978449' target='_blank' rel='noopener noreferrer'>Click here</a></p>
+              </div>
+            </div>
+          </div>
+          <div className='w-2/5 pl-1rem pt-1rem'>
+            <div className='h-16rem bg-color rounded-lg'></div>
+          </div>
+        </section>
+        <section className='pt-4rem pb-4rem pr-16rem pl-16rem z-10 bg-color flex flex-col items-center' id='skills2'>
+          <h2 className='text-dark font-semibold text-4xl leading-none mb-2rem'>LANGUAGES AND TOOLS</h2>
+          <div className='flex gap-1rem justify-center' >
+            <img className='w-5rem h-full' alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+            <img className='w-5rem h-full' alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+            <img className='w-5rem h-full' alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+            <img className='w-5rem h-full' alt="Tailwindcss" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+            <img className='w-5rem h-full' alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+            <img className='w-5rem h-full' alt="Figma" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+            <img className='w-5rem h-full' alt="GitHub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+            <img className='w-5rem h-full' alt="VisualStudioCode" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+            <img className='w-5rem h-full' alt="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+          </div>
         </section>
       </main>
       <footer></footer>

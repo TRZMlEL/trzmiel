@@ -11,13 +11,17 @@ module.exports = {
       'gray': '#CCC8C2',
     },
     spacing: {
-    ...generateSpacing(20),
+    ...generateSpacing(40),
     '0.25rem': '0.25rem',
     '0.5rem': '0.5rem',
     '2.5rem': '2.5rem',
+    '0rem': '0rem',
     },
     text: generateText(20), 
     tracking: generateTracking(20), 
+    fontFamily: {
+      'Lato': 'Lato'
+    }
   },
   plugins: [],
 }
