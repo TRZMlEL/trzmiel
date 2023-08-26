@@ -16,6 +16,7 @@ module.exports = {
     '0.5rem': '0.5rem',
     '2.5rem': '2.5rem',
     '0rem': '0rem',
+    '7.5rem': '7.5rem',
     },
     text: generateText(20), 
     tracking: generateTracking(20), 

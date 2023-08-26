@@ -1,6 +1,7 @@
 import React from 'react';
 import mateuszTrzmiel from './img/mateuszTrzmiel.png';
 import homeHex from './img/homeHex.png';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -57,7 +58,7 @@ function App() {
               </svg>
               <div className='w-1/2 h-full flex flex-col items-center justify-center'>
                 <p className='text-3xl font-semibold'>My GitHub profile</p>
-                <p className='text-3xl font-semibold underline underline-offset-2'><a href='https://github.com/TRZMlEL' target='_blank' rel='noopener noreferrer'>Click here</a></p>
+                <p className='text-3xl font-semibold underline underline-offset-2 hover:text-light'><a href='https://github.com/TRZMlEL' target='_blank' rel='noopener noreferrer'>Click here</a></p>
               </div>
             </div>
           </div>
@@ -72,7 +73,7 @@ function App() {
               <p className='text-9xl font-bold'>CV</p>
               <div>
                 <p className='text-3xl font-semibold'>My CV</p>
-                <p className='text-3xl font-semibold underline underline-offset-2'><a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiazN_AwfiAAxU9KBAIHRcnBdUQwqsBegQICRAG&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ&usg=AOvVaw0aHtehaphMhOCAkCydRLZU&opi=89978449' target='_blank' rel='noopener noreferrer'>Click here</a></p>
+                <p className='text-3xl font-semibold underline underline-offset-2 hover:text-light'><a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiazN_AwfiAAxU9KBAIHRcnBdUQwqsBegQICRAG&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ&usg=AOvVaw0aHtehaphMhOCAkCydRLZU&opi=89978449' target='_blank' rel='noopener noreferrer'>Click here</a></p>
               </div>
             </div>
           </div>
@@ -93,6 +94,9 @@ function App() {
             <img className='w-5rem h-full' alt="VisualStudioCode" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
             <img className='w-5rem h-full' alt="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
           </div>
+        </section>
+        <section id='contact'>
+          <Contact />
         </section>
       </main>
       <footer></footer>
