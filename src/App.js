@@ -2,6 +2,7 @@ import React from 'react';
 import mateuszTrzmiel from './img/mateuszTrzmiel.png';
 import homeHex from './img/homeHex.png';
 import Contact from './Contact';
+import CodingProjects from './CodingProjects';
 
 function App() {
   return (
@@ -94,6 +95,12 @@ function App() {
             <img className='w-5rem h-full' alt="VisualStudioCode" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
             <img className='w-5rem h-full' alt="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
           </div>
+        </section>
+        <section id='codingProjects'>
+          <CodingProjects />
+        </section>
+        <section id='photos'>
+
         </section>
         <section id='contact'>
           <Contact />
