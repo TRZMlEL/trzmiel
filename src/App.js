@@ -3,6 +3,7 @@ import mateuszTrzmiel from './img/mateuszTrzmiel.png';
 import homeHex from './img/homeHex.png';
 import Contact from './Contact';
 import CodingProjects from './CodingProjects';
+import Photos from './Photos';
 
 function App() {
   return (
@@ -72,7 +73,7 @@ function App() {
           <div className='w-3/5 pr-1rem pt-1rem'>
             <div className='h-16rem bg-color rounded-lg flex p-4rem justify-between items-center'>
               <p className='text-9xl font-bold'>CV</p>
-              <div>
+              <div className='flex flex-col justify-center items-center'>
                 <p className='text-3xl font-semibold'>My CV</p>
                 <p className='text-3xl font-semibold underline underline-offset-2 hover:text-light'><a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiazN_AwfiAAxU9KBAIHRcnBdUQwqsBegQICRAG&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ&usg=AOvVaw0aHtehaphMhOCAkCydRLZU&opi=89978449' target='_blank' rel='noopener noreferrer'>Click here</a></p>
               </div>
@@ -100,7 +101,7 @@ function App() {
           <CodingProjects />
         </section>
         <section id='photos'>
-
+          <Photos />
         </section>
         <section id='contact'>
           <Contact />
