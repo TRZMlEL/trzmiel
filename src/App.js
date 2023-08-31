@@ -6,16 +6,23 @@ import CodingProjects from './CodingProjects';
 import Photos from './Photos';
 
 function App() {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className='bg-dark w-screen text-light font-Lato'>
       <header className='ml-8rem mr-8rem h-4rem flex justify-end flex-col'>
         <nav className='flex w-full items-end justify-between'>
           <h2 className='text-4xl tracking-tight font-semibold leading-none hover:text-color'>TRZMIEL</h2>
           <div className='text-2xl flex h-full gap-1rem font-semibold leading-none items-end'>
-            <p className='hover:underline underline-offset-1'>About me</p>
-            <p className='hover:underline underline-offset-1'>Skills</p>
-            <p className='hover:underline underline-offset-1'>Projects</p>
-            <p className='hover:underline underline-offset-1'>Contact</p>
+            <p className='hover:underline underline-offset-1' onClick={() => scrollToSection('about')}>About me</p>
+            <p className='hover:underline underline-offset-1' onClick={() => scrollToSection('skills')}>Skills</p>
+            <p className='hover:underline underline-offset-1' onClick={() => scrollToSection('projects')}>Projects</p>
+            <p className='hover:underline underline-offset-1' onClick={() => scrollToSection('contact')}>Contact</p>
           </div>
           <div className='flex h-full gap-1rem'>
             <a href='https://www.facebook.com/TRZMlEL/' target='_blank' rel='noopener noreferrer'>
@@ -49,7 +56,7 @@ function App() {
             <img className='w-3/5' src={ mateuszTrzmiel } alt='Moje zdjęcie' />
           </div>
         </section>
-        <section className='bg-color w-screen pl-16rem pr-16rem pt-4rem pb-4rem z-10' id='aboutMe'>
+        <section className='section bg-color w-screen pl-16rem pr-16rem pt-4rem pb-4rem z-10' id='about'>
           <p className='text-dark text-3xl font-semibold target:bg-color'>Currently, I am attending the Zespół Szkół Technicznych w Ostrowie Wielkopolskim im. Waldemara Gostomczyka, where I am studying Computer Science. It was my passion for video games that initially led me to this field, rather than programming. It was during my time at the school that I first held a camera in my hands, which helped me see the world around me in a different light. For the past six months, I have been focusing on learning frontend development.</p>
         </section>
         <section className='pt-4rem pb-4rem pr-16rem pl-16rem flex flex-wrap z-10 text-dark' id='skills1'>
@@ -83,7 +90,7 @@ function App() {
             <div className='h-16rem bg-color rounded-lg'></div>
           </div>
         </section>
-        <section className='pt-4rem pb-4rem pr-16rem pl-16rem z-10 bg-color flex flex-col items-center' id='skills2'>
+        <section className='section pt-4rem pb-4rem pr-16rem pl-16rem z-10 bg-color flex flex-col items-center' id="skills">
           <h2 className='text-dark font-semibold text-4xl leading-none mb-2rem'>LANGUAGES AND TOOLS</h2>
           <div className='flex gap-1rem justify-center' >
             <img className='w-5rem h-full' alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
@@ -97,13 +104,13 @@ function App() {
             <img className='w-5rem h-full' alt="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
           </div>
         </section>
-        <section id='codingProjects'>
+        <section id="projects" className="section">
           <CodingProjects />
         </section>
         <section id='photos'>
           <Photos />
         </section>
-        <section id='contact'>
+        <section id="contact" className="section">
           <Contact />
         </section>
       </main>
