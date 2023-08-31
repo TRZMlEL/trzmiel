@@ -11,7 +11,7 @@ module.exports = {
       'gray': '#CCC8C2',
     },
     spacing: {
-    ...generateSpacing(40),
+    ...generateSpacing(45),
     '0.25rem': '0.25rem',
     '0.5rem': '0.5rem',
     '2.5rem': '2.5rem',
