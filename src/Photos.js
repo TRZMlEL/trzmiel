@@ -38,26 +38,26 @@ function Photos() {
           <h2 className='font-semibold text-3xl'>PHOTOS</h2>
       </div>
       <div className='thumbnails h-auto flex flex-wrap justify-center gap-1rem mb-4rem pl-16rem pr-16rem'>
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={Building} draggable="false" onClick={() => handleImageClick(Building)} alt="Building" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={Stars} draggable="false" onClick={() => handleImageClick(Stars)} alt="Stars" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={WildTran} draggable="false" onClick={() => handleImageClick(WildTran)} alt="Wild tran" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={MeOnTrain} draggable="false" onClick={() => handleImageClick(MeOnTrain)} alt="Me on train" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={PurpleSkyTree} draggable="false" onClick={() => handleImageClick(PurpleSkyTree)} alt="Purple sky tree" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={LoveSky} draggable="false" onClick={() => handleImageClick(LoveSky)} alt="LoveSky" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={WoodenLuckyDog} draggable="false" onClick={() => handleImageClick(WoodenLuckyDog)} alt="Wooden lucky dog" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={TowerRoof} draggable="false" onClick={() => handleImageClick(TowerRoof)} alt="Tower roof" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={OldRedCar} draggable="false" onClick={() => handleImageClick(OldRedCar)} alt="Old red car" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={OldWoodenChurch} draggable="false" onClick={() => handleImageClick(OldWoodenChurch)} alt="Old wooden church" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={GateInTheWild} draggable="false" onClick={() => handleImageClick(GateInTheWild)} alt="Gate in the wild" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={CrushedCan} draggable="false" onClick={() => handleImageClick(CrushedCan)} alt="Crushed can" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={FastTrain} draggable="false" onClick={() => handleImageClick(FastTrain)} alt="Fast train" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={Sunset1} draggable="false" onClick={() => handleImageClick(Sunset1)} alt="Sunset 1" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={Sunset2} draggable="false" onClick={() => handleImageClick(Sunset2)} alt="Sunset 2" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={LadybugOnAFieldFlower} draggable="false" onClick={() => handleImageClick(LadybugOnAFieldFlower)} alt="Ladybug on a field flower" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={TreeInSunset} draggable="false" onClick={() => handleImageClick(TreeInSunset)} alt="Tree in sunset" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={Fireworks1} draggable="false" onClick={() => handleImageClick(Fireworks1)} alt="Fireworks 1" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={Fireworks2} draggable="false" onClick={() => handleImageClick(Fireworks2)} alt="Fireworks 2" />
-        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer" src={SparkStickCircle} draggable="false" onClick={() => handleImageClick(SparkStickCircle)} alt="Spark stick circle" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={Building} draggable="false" onClick={() => handleImageClick(Building)} alt="Building" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={Stars} draggable="false" onClick={() => handleImageClick(Stars)} alt="Stars" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={WildTran} draggable="false" onClick={() => handleImageClick(WildTran)} alt="Wild tran" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={MeOnTrain} draggable="false" onClick={() => handleImageClick(MeOnTrain)} alt="Me on train" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={PurpleSkyTree} draggable="false" onClick={() => handleImageClick(PurpleSkyTree)} alt="Purple sky tree" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={LoveSky} draggable="false" onClick={() => handleImageClick(LoveSky)} alt="LoveSky" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={WoodenLuckyDog} draggable="false" onClick={() => handleImageClick(WoodenLuckyDog)} alt="Wooden lucky dog" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={TowerRoof} draggable="false" onClick={() => handleImageClick(TowerRoof)} alt="Tower roof" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={OldRedCar} draggable="false" onClick={() => handleImageClick(OldRedCar)} alt="Old red car" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={OldWoodenChurch} draggable="false" onClick={() => handleImageClick(OldWoodenChurch)} alt="Old wooden church" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={GateInTheWild} draggable="false" onClick={() => handleImageClick(GateInTheWild)} alt="Gate in the wild" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={CrushedCan} draggable="false" onClick={() => handleImageClick(CrushedCan)} alt="Crushed can" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={FastTrain} draggable="false" onClick={() => handleImageClick(FastTrain)} alt="Fast train" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={Sunset1} draggable="false" onClick={() => handleImageClick(Sunset1)} alt="Sunset 1" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={Sunset2} draggable="false" onClick={() => handleImageClick(Sunset2)} alt="Sunset 2" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={LadybugOnAFieldFlower} draggable="false" onClick={() => handleImageClick(LadybugOnAFieldFlower)} alt="Ladybug on a field flower" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={TreeInSunset} draggable="false" onClick={() => handleImageClick(TreeInSunset)} alt="Tree in sunset" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={Fireworks1} draggable="false" onClick={() => handleImageClick(Fireworks1)} alt="Fireworks 1" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={Fireworks2} draggable="false" onClick={() => handleImageClick(Fireworks2)} alt="Fireworks 2" />
+        <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={SparkStickCircle} draggable="false" onClick={() => handleImageClick(SparkStickCircle)} alt="Spark stick circle" />
       </div>
       <div className="absolute w-auto bg-gray flex items-center justify-center z-20 cursor-pointer" onClick={handleCloseImage}>
         {selectedImage && <img className=' max-h-40rem border-8 border-dark' src={selectedImage} alt="Selected" />}
