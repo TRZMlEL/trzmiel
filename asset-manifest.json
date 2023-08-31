@@ -1,13 +1,30 @@
 {
   "files": {
-    "main.css": "/trzmiel/static/css/main.78e7862d.css",
-    "main.js": "/trzmiel/static/js/main.90062c76.js",
+    "main.css": "/trzmiel/static/css/main.1ec5b785.css",
+    "main.js": "/trzmiel/static/js/main.12a65757.js",
     "static/js/787.99147d09.chunk.js": "/trzmiel/static/js/787.99147d09.chunk.js",
+    "static/media/_TRZ6986.png": "/trzmiel/static/media/_TRZ6986.57ef42e6613de143cc40.png",
+    "static/media/_TRZ3349-2.jpg": "/trzmiel/static/media/_TRZ3349-2.3bcab203bfc370ebfab3.jpg",
+    "static/media/_TRZ3442.jpg": "/trzmiel/static/media/_TRZ3442.8b67ea419441eb6f3b53.jpg",
     "static/media/_TRZ9137-Poprawione-Szum.jpg": "/trzmiel/static/media/_TRZ9137-Poprawione-Szum.5bf3b7fb00f82d48c9c3.jpg",
+    "static/media/_TRZ3967.jpg": "/trzmiel/static/media/_TRZ3967.feb4f78da18701355b13.jpg",
+    "static/media/_TRZ8479-6.jpg": "/trzmiel/static/media/_TRZ8479-6.f0e60fcea7dbae3c4442.jpg",
+    "static/media/DSC00405.jpg": "/trzmiel/static/media/DSC00405.5e53b4b4af123633dc36.jpg",
+    "static/media/_TRZ3779.jpg": "/trzmiel/static/media/_TRZ3779.ca5b5fafda27e5b34b34.jpg",
+    "static/media/_TRZ8975.jpg": "/trzmiel/static/media/_TRZ8975.8ce73c50b8fbbd72a8d3.jpg",
     "static/media/mateuszTrzmiel.png": "/trzmiel/static/media/mateuszTrzmiel.da2cc910277a63affece.png",
+    "static/media/_TRZ3497.jpg": "/trzmiel/static/media/_TRZ3497.5b0277646bf0d97cbaaa.jpg",
     "static/media/_TRZ8462.jpg": "/trzmiel/static/media/_TRZ8462.f1109f7a2090ee8545ba.jpg",
+    "static/media/_TRZ8987.jpg": "/trzmiel/static/media/_TRZ8987.7eb1a6f237f49894e4d0.jpg",
+    "static/media/sylwester insta 1.png": "/trzmiel/static/media/sylwester insta 1.6748fafe28ee2616a302.png",
+    "static/media/_TRZ7147.jpg": "/trzmiel/static/media/_TRZ7147.223a4d6e788bd83ce892.jpg",
+    "static/media/_TRZ8977.jpg": "/trzmiel/static/media/_TRZ8977.11a35c016cf5c695e0f3.jpg",
+    "static/media/DSC00781.jpg": "/trzmiel/static/media/DSC00781.d3058f60905f33293e4a.jpg",
+    "static/media/_TRZ8872.jpg": "/trzmiel/static/media/_TRZ8872.cc04d14633bc5dbe7a3c.jpg",
+    "static/media/DSC00756.jpg": "/trzmiel/static/media/DSC00756.963443925eb4606a6684.jpg",
     "static/media/Gwiazdy.jpg": "/trzmiel/static/media/Gwiazdy.4f322188379004362e57.jpg",
     "static/media/modernEden.png": "/trzmiel/static/media/modernEden.b724fb4738140cba8c47.png",
+    "static/media/_TRZ8897.jpg": "/trzmiel/static/media/_TRZ8897.e315fca20063899e8f48.jpg",
     "static/media/ZAP-CUP.png": "/trzmiel/static/media/ZAP-CUP.48c982530ab847bfebf0.png",
     "static/media/slidingPuzzle.png": "/trzmiel/static/media/slidingPuzzle.0ddbb37541fe30790131.png",
     "static/media/memory.png": "/trzmiel/static/media/memory.912c98a40b583686871e.png",
@@ -15,12 +32,12 @@
     "static/media/TicTacToe.png": "/trzmiel/static/media/TicTacToe.721d05623380662d2214.png",
     "static/media/currencyConverter.png": "/trzmiel/static/media/currencyConverter.1e44adaa112964a5e5f0.png",
     "index.html": "/trzmiel/index.html",
-    "main.78e7862d.css.map": "/trzmiel/static/css/main.78e7862d.css.map",
-    "main.90062c76.js.map": "/trzmiel/static/js/main.90062c76.js.map",
+    "main.1ec5b785.css.map": "/trzmiel/static/css/main.1ec5b785.css.map",
+    "main.12a65757.js.map": "/trzmiel/static/js/main.12a65757.js.map",
     "787.99147d09.chunk.js.map": "/trzmiel/static/js/787.99147d09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78e7862d.css",
-    "static/js/main.90062c76.js"
+    "static/css/main.1ec5b785.css",
+    "static/js/main.12a65757.js"
   ]
 }
