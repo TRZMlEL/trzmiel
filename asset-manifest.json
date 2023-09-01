@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trzmiel/static/css/main.1ec5b785.css",
-    "main.js": "/trzmiel/static/js/main.97a88985.js",
+    "main.css": "/trzmiel/static/css/main.2f6628b5.css",
+    "main.js": "/trzmiel/static/js/main.24026757.js",
     "static/js/787.99147d09.chunk.js": "/trzmiel/static/js/787.99147d09.chunk.js",
     "static/media/TRZ6986.png": "/trzmiel/static/media/TRZ6986.57ef42e6613de143cc40.png",
     "static/media/TRZ3349-2.jpg": "/trzmiel/static/media/TRZ3349-2.3bcab203bfc370ebfab3.jpg",
@@ -28,16 +28,18 @@
     "static/media/ZAP-CUP.png": "/trzmiel/static/media/ZAP-CUP.48c982530ab847bfebf0.png",
     "static/media/slidingPuzzle.png": "/trzmiel/static/media/slidingPuzzle.0ddbb37541fe30790131.png",
     "static/media/memory.png": "/trzmiel/static/media/memory.912c98a40b583686871e.png",
+    "static/media/footer.png": "/trzmiel/static/media/footer.98fac1e0196e5e75453f.png",
+    "static/media/HexSkillsDecoration.png": "/trzmiel/static/media/HexSkillsDecoration.f589be195459546c2cd6.png",
     "static/media/homeHex.png": "/trzmiel/static/media/homeHex.dd0d5a0f8739c643cc15.png",
     "static/media/TicTacToe.png": "/trzmiel/static/media/TicTacToe.721d05623380662d2214.png",
     "static/media/currencyConverter.png": "/trzmiel/static/media/currencyConverter.1e44adaa112964a5e5f0.png",
     "index.html": "/trzmiel/index.html",
-    "main.1ec5b785.css.map": "/trzmiel/static/css/main.1ec5b785.css.map",
-    "main.97a88985.js.map": "/trzmiel/static/js/main.97a88985.js.map",
+    "main.2f6628b5.css.map": "/trzmiel/static/css/main.2f6628b5.css.map",
+    "main.24026757.js.map": "/trzmiel/static/js/main.24026757.js.map",
     "787.99147d09.chunk.js.map": "/trzmiel/static/js/787.99147d09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ec5b785.css",
-    "static/js/main.97a88985.js"
+    "static/css/main.2f6628b5.css",
+    "static/js/main.24026757.js"
   ]
 }
