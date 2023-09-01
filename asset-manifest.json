@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trzmiel/static/css/main.2f6628b5.css",
-    "main.js": "/trzmiel/static/js/main.135ec489.js",
+    "main.css": "/trzmiel/static/css/main.d4f8a099.css",
+    "main.js": "/trzmiel/static/js/main.c47ba0e2.js",
     "static/js/787.99147d09.chunk.js": "/trzmiel/static/js/787.99147d09.chunk.js",
     "static/media/TRZ6986.png": "/trzmiel/static/media/TRZ6986.57ef42e6613de143cc40.png",
     "static/media/TRZ3349-2.jpg": "/trzmiel/static/media/TRZ3349-2.3bcab203bfc370ebfab3.jpg",
@@ -31,15 +31,16 @@
     "static/media/footer.png": "/trzmiel/static/media/footer.98fac1e0196e5e75453f.png",
     "static/media/HexSkillsDecoration.png": "/trzmiel/static/media/HexSkillsDecoration.f589be195459546c2cd6.png",
     "static/media/homeHex.png": "/trzmiel/static/media/homeHex.dd0d5a0f8739c643cc15.png",
+    "static/media/HexDecoration.png": "/trzmiel/static/media/HexDecoration.c042263963ed721f85a0.png",
     "static/media/TicTacToe.png": "/trzmiel/static/media/TicTacToe.721d05623380662d2214.png",
     "static/media/currencyConverter.png": "/trzmiel/static/media/currencyConverter.1e44adaa112964a5e5f0.png",
     "index.html": "/trzmiel/index.html",
-    "main.2f6628b5.css.map": "/trzmiel/static/css/main.2f6628b5.css.map",
-    "main.135ec489.js.map": "/trzmiel/static/js/main.135ec489.js.map",
+    "main.d4f8a099.css.map": "/trzmiel/static/css/main.d4f8a099.css.map",
+    "main.c47ba0e2.js.map": "/trzmiel/static/js/main.c47ba0e2.js.map",
     "787.99147d09.chunk.js.map": "/trzmiel/static/js/787.99147d09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f6628b5.css",
-    "static/js/main.135ec489.js"
+    "static/css/main.d4f8a099.css",
+    "static/js/main.c47ba0e2.js"
   ]
 }
