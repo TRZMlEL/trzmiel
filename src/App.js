@@ -85,7 +85,7 @@ function App() {
               <p className='text-9xl font-bold'>CV</p>
               <div className='flex flex-col justify-center items-center'>
                 <p className='text-3xl font-semibold'>My CV</p>
-                <p className='text-3xl font-semibold underline underline-offset-2 hover:text-light'><a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiazN_AwfiAAxU9KBAIHRcnBdUQwqsBegQICRAG&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ&usg=AOvVaw0aHtehaphMhOCAkCydRLZU&opi=89978449' target='_blank' rel='noopener noreferrer'>Click here</a></p>
+                <p className='text-3xl font-semibold underline underline-offset-2 hover:text-light'><a href='' target='_blank' rel='noopener noreferrer'>Click here</a></p>
               </div>
             </div>
           </div>
