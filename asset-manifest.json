@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trzmiel/static/css/main.ea9919e5.css",
-    "main.js": "/trzmiel/static/js/main.c16aa695.js",
+    "main.css": "/trzmiel/static/css/main.89fe045c.css",
+    "main.js": "/trzmiel/static/js/main.ee65f043.js",
     "static/js/787.99147d09.chunk.js": "/trzmiel/static/js/787.99147d09.chunk.js",
     "static/media/TRZ6986.png": "/trzmiel/static/media/TRZ6986.57ef42e6613de143cc40.png",
     "static/media/TRZ3349-2.jpg": "/trzmiel/static/media/TRZ3349-2.3bcab203bfc370ebfab3.jpg",
@@ -35,12 +35,12 @@
     "static/media/TicTacToe.png": "/trzmiel/static/media/TicTacToe.721d05623380662d2214.png",
     "static/media/currencyConverter.png": "/trzmiel/static/media/currencyConverter.1e44adaa112964a5e5f0.png",
     "index.html": "/trzmiel/index.html",
-    "main.ea9919e5.css.map": "/trzmiel/static/css/main.ea9919e5.css.map",
-    "main.c16aa695.js.map": "/trzmiel/static/js/main.c16aa695.js.map",
+    "main.89fe045c.css.map": "/trzmiel/static/css/main.89fe045c.css.map",
+    "main.ee65f043.js.map": "/trzmiel/static/js/main.ee65f043.js.map",
     "787.99147d09.chunk.js.map": "/trzmiel/static/js/787.99147d09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea9919e5.css",
-    "static/js/main.c16aa695.js"
+    "static/css/main.89fe045c.css",
+    "static/js/main.ee65f043.js"
   ]
 }
