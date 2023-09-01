@@ -25,7 +25,7 @@ const CodingProjects = () => {
     
     <div className='scene w-screen h-30rem pl-16rem pr-16rem pt-4rem pb-4rem'>
       <div className='w-full mb-2rem flex items-center justify-center'>
-          <h2  className='font-semibold text-3xl' >CODING PROJECTS</h2>
+          <h2  className='font-semibold text-3xl text-center' >CODING PROJECTS</h2>
       </div>
       <div className='carousel' style={rotateCarousel()}>
           <div className='carousel_cell bg-dark rounded-lg border-8 border-color p-1rem flex flex-col justify-center items-center'>
