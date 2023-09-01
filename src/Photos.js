@@ -38,7 +38,7 @@
         <div className='w-full mb-2rem flex items-center justify-center'>
             <h2 className='font-semibold text-3xl'>PHOTOS</h2>
         </div>
-        <div className='thumbnails h-auto flex flex-wrap justify-center gap-1rem mb-4rem pl-16rem pr-16rem'>
+        <div className='thumbnails h-auto flex flex-wrap justify-center gap-1rem mb-4rem lg:pl-16rem lg:pr-16rem'>
           <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={Building} draggable="false" onClick={() => handleImageClick(Building)} alt="Building" />
           <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={Stars} draggable="false" onClick={() => handleImageClick(Stars)} alt="Stars" />
           <img className="h-10rem w-13rem object-cover border-4 border-dark cursor-pointer rounded-lg" src={WildTran} draggable="false" onClick={() => handleImageClick(WildTran)} alt="Wild tran" />

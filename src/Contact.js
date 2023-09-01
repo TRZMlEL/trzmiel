@@ -19,7 +19,7 @@ const Contact = () => {
           e.target.reset()
       };
   return (
-    <div className='pt-4rem pb-4rem pl-32rem pr-32rem flex flex-col text-light'>
+    <div className='pt-4rem pb-4rem pl-8rem pr-8rem lg:pl-32rem lg:pr-32rem flex flex-col text-light'>
         <div className='flex justify-center items-center mb-2rem'>
             <h2 className='font-semibold text-3xl'>CONTACT</h2>
         </div>

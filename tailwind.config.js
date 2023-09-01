@@ -18,7 +18,6 @@ module.exports = {
     '0rem': '0rem',
     '7.5rem': '7.5rem',
     },
-    text: generateText(20), 
     tracking: generateTracking(20), 
     fontFamily: {
       'Lato': 'Lato'
@@ -33,14 +32,6 @@ function generateSpacing(count) {
     spacing[`${i}rem`] = `${i}rem`;
   }
   return spacing;
-}
-
-function generateText(count) {
-  const text = {};
-  for (let i = 1; i <= count; i++) {
-    text[`${i}xl`] = `${i}rem`;
-  }
-  return text;
 }
 
 function generateTracking(count) {
