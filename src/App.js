@@ -64,7 +64,7 @@ function App() {
           <img className=' absolute w-10rem -translate-x-16rem -translate-y-11rem' alt=' ' src={ HexDecoration } />
           <p className='z-40 text-dark text-1xl md:text-2xl lg:text-3xl font-semibold target:bg-color'>Currently, I am attending the Zespół Szkół Technicznych w Ostrowie Wielkopolskim im. Waldemara Gostomczyka, where I am studying Computer Science. It was my passion for video games that initially led me to this field, rather than programming. It was during my time at the school that I first held a camera in my hands, which helped me see the world around me in a different light. For the past six months, I have been focusing on learning frontend development.</p>
         </section>
-        <section className='pt-4rem pb-4rem lg:pr-16rem lg:pl-16rem flex flex-wrap z-10 text-dark' id='skills1'>
+        <section className='pt-4rem pb-4rem pr-2rem pl-2rem lg:pr-16rem lg:pl-16rem flex flex-wrap z-10 text-dark' id='skills1'>
         <h4 className='hidden lg:block -rotate-90 absolute -left-10rem font-bold text-6xl text-center translate-y-15rem opacity-40'>CREATE WITH ME</h4>
           <div className='z-20 relative w-2/3 pr-1rem pb-1rem'>
             <div className='h-10rem md:h-12rem lg:h-16rem bg-color rounded-lg flex p-4rem justify-end items-center'>
