@@ -139,12 +139,8 @@ const CodingProjects = () => {
         </div>
       </div>
       <div className='flex justify-between h-full w-full items-center'>
-        <button className='rounded-lg translate-y-0rem h-full w-1/3 previous-button' onClick={handlePrevClick}>
-          &lt;
-        </button>
-        <button className='rounded-lg translate-y-0rem h-full w-1/3 next-button' onClick={handleNextClick}>
-          &gt;
-        </button>
+        <button className='rounded-lg translate-y-0rem h-full w-1/3 previous-button' onClick={handlePrevClick}></button>
+        <button className='rounded-lg translate-y-0rem h-full w-1/3 next-button' onClick={handleNextClick}></button>
       </div>
     </div>
   )
