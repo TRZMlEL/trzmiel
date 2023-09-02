@@ -5,12 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@property --radius{
-  syntax: '<length>';
-  inherits: true;
-  initial-value: 0;
-}
-
 :root{
   --light: #FFFBF2;
   --dark: #1A1100;
@@ -69,6 +63,16 @@ h1{
 h4{
   color: transparent;
   -webkit-text-stroke: 0.1rem var(--color);
+}
+
+@media screen and (max-width: 640px) {
+  .carousel {
+    transform: translateZ(-32rem) translateX(-16rem) translateY(-4rem);
+  }
+
+  .carousel_cell {
+
+  }
 }
 
 /* width */
