@@ -83,7 +83,7 @@ function App() {
           </div>
           <div className='z-20 relative w-1/3 pl-1rem pb-1rem'>
             <div className='h-10rem md:h-12rem lg:h-16rem bg-color rounded-lg flex flex-col items-center justify-center'>
-            <p className='text-3xl md:text-6xl'>14</p>
+            <p className='text-3xl md:text-6xl'>16+</p>
             <p className='text-1xl md:text-3xl font-semibold'>repositories</p>
             </div>
           </div>
