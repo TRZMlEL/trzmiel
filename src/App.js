@@ -1,5 +1,5 @@
 import React from 'react';
-import mateuszTrzmiel from './img/mateuszTrzmiel.png';
+import mateuszTrzmiel from './img/MateuszTrzmiel.png';
 import homeHex from './img/homeHex.png';
 import Contact from './Contact';
 import CodingProjects from './CodingProjects';
