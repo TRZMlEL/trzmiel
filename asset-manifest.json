@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/trzmiel/static/css/main.f7a7541e.css",
-    "main.js": "/trzmiel/static/js/main.8a1dbece.js",
+    "main.js": "/trzmiel/static/js/main.263acf8d.js",
     "static/js/787.99147d09.chunk.js": "/trzmiel/static/js/787.99147d09.chunk.js",
     "static/media/sylwester insta 1.png": "/trzmiel/static/media/sylwester insta 1.09f6b0e3c85582e037ff.png",
     "static/media/MateuszTrzmiel.png": "/trzmiel/static/media/MateuszTrzmiel.da2cc910277a63affece.png",
+    "static/media/choosePie.png": "/trzmiel/static/media/choosePie.d08be8ac24ddf4d91c1d.png",
     "static/media/DSC00405.jpg": "/trzmiel/static/media/DSC00405.65d51748e6ff5e6f3d97.jpg",
     "static/media/TRZ8462.jpg": "/trzmiel/static/media/TRZ8462.92f52829faffbb754dbd.jpg",
     "static/media/TRZ6986.png": "/trzmiel/static/media/TRZ6986.7f42409fe385c2b9ca92.png",
@@ -23,6 +24,7 @@
     "static/media/TRZ8975.jpg": "/trzmiel/static/media/TRZ8975.67f4d6b5633abafea6ea.jpg",
     "static/media/DSC00756.jpg": "/trzmiel/static/media/DSC00756.e5771ad074a8c34c7d85.jpg",
     "static/media/slidingPuzzle.png": "/trzmiel/static/media/slidingPuzzle.0ddbb37541fe30790131.png",
+    "static/media/rynekPapierowWartosciowych.png": "/trzmiel/static/media/rynekPapierowWartosciowych.8b5e1b496f10d29679c8.png",
     "static/media/memory.png": "/trzmiel/static/media/memory.912c98a40b583686871e.png",
     "static/media/footer.png": "/trzmiel/static/media/footer.98fac1e0196e5e75453f.png",
     "static/media/TRZ8897.jpg": "/trzmiel/static/media/TRZ8897.37974f8b5c7aadd17b97.jpg",
@@ -34,13 +36,14 @@
     "static/media/TRZ8977.jpg": "/trzmiel/static/media/TRZ8977.badbe6b0fb8458cec8c2.jpg",
     "static/media/TicTacToe.png": "/trzmiel/static/media/TicTacToe.721d05623380662d2214.png",
     "static/media/currencyConverter.png": "/trzmiel/static/media/currencyConverter.1e44adaa112964a5e5f0.png",
+    "static/media/onScrollAnimation.png": "/trzmiel/static/media/onScrollAnimation.bde936d4a1999f405510.png",
     "index.html": "/trzmiel/index.html",
     "main.f7a7541e.css.map": "/trzmiel/static/css/main.f7a7541e.css.map",
-    "main.8a1dbece.js.map": "/trzmiel/static/js/main.8a1dbece.js.map",
+    "main.263acf8d.js.map": "/trzmiel/static/js/main.263acf8d.js.map",
     "787.99147d09.chunk.js.map": "/trzmiel/static/js/787.99147d09.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7a7541e.css",
-    "static/js/main.8a1dbece.js"
+    "static/js/main.263acf8d.js"
   ]
 }
