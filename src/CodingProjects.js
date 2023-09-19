@@ -5,6 +5,9 @@ import ZAPCUP from './img/ZAP-CUP.png'
 import currencyConverter from './img/currencyConverter.png'
 import modernEden from './img/modernEden.png'
 import memory from './img/memory.png'
+import choosePie from './img/choosePie.png'
+import onScrollAnimation from './img/onScrollAnimation.png'
+import rynekPapierowWartosciowych from './img/rynekPapierowWartosciowych.png'
 
 const CodingProjects = () => {
   const [angle, setAngle] = useState(0);
@@ -91,27 +94,26 @@ const CodingProjects = () => {
         </div>
         <div className='carousel_cell bg-dark rounded-lg border-8 border-color p-1rem flex flex-col justify-center items-center'>
           <div className='w-full h-2/3 border-4 rounded-md border-color mb-1rem'>
-            <img className='w-full h-full object-cover' alt='Sliding Puzzle Project' src={ slidingPuzzle }/>
+            <img className='w-full h-full object-cover' alt='Choose Pie Project' src={ choosePie }/>
           </div>
-          <h3 className=' text-1xl font-semibold'>Sliding Puzzle</h3>
-          <p className=' text-sm font-medium hover:underline underline-offset-4 cursor-pointer'><a href='https://trzmlel.github.io/SlidingPuzzle/'  target='_blank' rel='noopener noreferrer'>Open  --&gt;</a></p>
-          <p className=' text-sm text-1xl font-medium hover:underline underline-offset-4 cursor-pointer'><a href='https://github.com/TRZMlEL/SlidingPuzzle'  target='_blank' rel='noopener noreferrer'>Repository --&gt;</a></p>
+          <h3 className=' text-1xl font-semibold'>Choose Pie</h3>
+          <p className=' text-sm font-medium hover:underline underline-offset-4 cursor-pointer'><a href='https://trzmlel.github.io/choosePie/'  target='_blank' rel='noopener noreferrer'>Open  --&gt;</a></p>
+          <p className=' text-sm text-1xl font-medium hover:underline underline-offset-4 cursor-pointer'><a href='https://github.com/TRZMlEL/choosePie'  target='_blank' rel='noopener noreferrer'>Repository --&gt;</a></p>
         </div>
         <div className='carousel_cell bg-dark rounded-lg border-8 border-color p-1rem flex flex-col justify-center items-center'>
           <div className='w-full h-2/3 border-4 rounded-md border-color mb-1rem'>
-            <img className='w-full h-full object-cover' alt='Sliding Puzzle Project' src={ TicTacToe }/>
+            <img className='w-full h-full object-cover' alt='on Scroll Animation Project' src={ onScrollAnimation }/>
           </div>
-          <h3 className=' text-1xl font-semibold'>Tic Tac Toe</h3>
-          <p className=' text-sm font-medium hover:underline underline-offset-4 cursor-pointer'><a href='https://trzmlel.github.io/TicTacToe_css'  target='_blank' rel='noopener noreferrer'>Open  --&gt;</a></p>
-          <p className=' text-sm text-1xl font-medium hover:underline underline-offset-4 cursor-pointer'><a href='https://github.com/TRZMlEL/TicTacToe_css'  target='_blank' rel='noopener noreferrer'>Repository --&gt;</a></p>
+          <h3 className=' text-1xl font-semibold'>On scroll animation test</h3>
+          <p className=' text-sm font-medium hover:underline underline-offset-4 cursor-pointer'><a href='https://trzmlel.github.io/onScrollAnimation/'  target='_blank' rel='noopener noreferrer'>Open  --&gt;</a></p>
+          <p className=' text-sm text-1xl font-medium hover:underline underline-offset-4 cursor-pointer'><a href='https://github.com/TRZMlEL/onScrollAnimation'  target='_blank' rel='noopener noreferrer'>Repository --&gt;</a></p>
         </div>
         <div className='carousel_cell bg-dark rounded-lg border-8 border-color p-1rem flex flex-col justify-center items-center'>
           <div className='w-full h-2/3 border-4 rounded-md border-color mb-1rem'>
-            <img className='w-full h-full object-cover' alt='Sliding Puzzle Project' src={ ZAPCUP }/>
+            <img className='w-full h-full object-cover' alt='Sliding Puzzle Project' src={ rynekPapierowWartosciowych }/>
           </div>
-          <h3 className=' text-1xl font-semibold'>ZAP-CUP</h3>
-          <p className=' text-sm font-medium hover:underline underline-offset-4 cursor-pointer'><a href='http://zapcup.pl'  target='_blank' rel='noopener noreferrer'>Open  --&gt;</a></p>
-          <p className=' text-sm text-1xl font-medium hover:underline underline-offset-4 cursor-pointer'><a href='https://github.com/TRZMlEL/ZAP-CUP'  target='_blank' rel='noopener noreferrer'>Repository --&gt;</a></p>
+          <h3 className=' text-1xl font-semibold'>Rynek papierow wartosciowych - pobieranie wartości</h3>
+          <p className=' text-sm text-1xl font-medium hover:underline underline-offset-4 cursor-pointer'><a href='https://github.com/TRZMlEL/rynekPapierowWartosciowych'  target='_blank' rel='noopener noreferrer'>Repository --&gt;</a></p>
         </div>
         <div className='carousel_cell bg-dark rounded-lg border-8 border-color p-1rem flex flex-col justify-center items-center'>
           <div className='w-full h-2/3 border-4 rounded-md border-color mb-1rem'>
