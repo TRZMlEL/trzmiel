@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trzmiel/static/css/main.fa8fddee.css",
-    "main.js": "/trzmiel/static/js/main.063f5f8f.js",
+    "main.css": "/trzmiel/static/css/main.f7a7541e.css",
+    "main.js": "/trzmiel/static/js/main.8a1dbece.js",
     "static/js/787.99147d09.chunk.js": "/trzmiel/static/js/787.99147d09.chunk.js",
     "static/media/sylwester insta 1.png": "/trzmiel/static/media/sylwester insta 1.09f6b0e3c85582e037ff.png",
     "static/media/MateuszTrzmiel.png": "/trzmiel/static/media/MateuszTrzmiel.da2cc910277a63affece.png",
@@ -35,12 +35,12 @@
     "static/media/TicTacToe.png": "/trzmiel/static/media/TicTacToe.721d05623380662d2214.png",
     "static/media/currencyConverter.png": "/trzmiel/static/media/currencyConverter.1e44adaa112964a5e5f0.png",
     "index.html": "/trzmiel/index.html",
-    "main.fa8fddee.css.map": "/trzmiel/static/css/main.fa8fddee.css.map",
-    "main.063f5f8f.js.map": "/trzmiel/static/js/main.063f5f8f.js.map",
+    "main.f7a7541e.css.map": "/trzmiel/static/css/main.f7a7541e.css.map",
+    "main.8a1dbece.js.map": "/trzmiel/static/js/main.8a1dbece.js.map",
     "787.99147d09.chunk.js.map": "/trzmiel/static/js/787.99147d09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa8fddee.css",
-    "static/js/main.063f5f8f.js"
+    "static/css/main.f7a7541e.css",
+    "static/js/main.8a1dbece.js"
   ]
 }
